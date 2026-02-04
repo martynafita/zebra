@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="background-color: #e698c8;">
+        <img class="zdjecie" src="zdjecie1.jpg">
+        <div class="kartka">
+            <div id="ekran1">
+                <p>Czy zostaniesz moją walentynką?</p>
+                <div class="przyciski">
+                    <button class="przycisk" onclick="wyslijMaila()">Tak</button>
+                    <button class="przycisk" onclick="pokazEkran2()">Nie</button>
+                </div>
+            </div>
+            <div id="ekran2" style="display: none";>
+                <p>Na pewno?</p>
+                <div class="przyciski" style="align-items: self-end;">
+                    <button class="przycisk" id="zmieniajacy" onclick="wroc()">Tak</button>
+                    <button class="przycisk" onclick="wroc()">Nie, żartowałem</button>
+                </div>
+            </div>
+        </div>
+        <img class="zdjecie" src="zdjecie2.jpg">
+        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

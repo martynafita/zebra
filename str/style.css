@@ -1,0 +1,71 @@
+.kartka {
+    display: flex; 
+    position: relative;
+    width: 30%;
+    height:50%;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    background-color: #ffffff; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.przyciski {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin: 50px;
+}
+.przycisk{
+    width: 200px;
+    height: 70px;
+    text-shadow: 2px 2px 5px gray;
+    font-family: courier;
+    font-style: italic;
+    letter-spacing: 2px;
+    margin: 10px;
+    padding: 10px;
+    color: #8f0053;
+    font-size: larger;
+    font-weight: bold;
+    background-color:beige;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px gray;
+}
+.zdjecie {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 50%;
+    border-radius: 20px;
+}
+.zdjecie:first-of-type {
+    left: 50px;
+}
+.zdjecie:last-of-type {
+    right: 50px;
+}
+body{
+    margin:0;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+p {
+    text-shadow: 2px 2px 5px gray;
+    font-family: courier;
+    font-style: italic;
+    letter-spacing: 2px;
+    margin: 10px;
+    padding: 10px;
+    color: #8f0053;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
